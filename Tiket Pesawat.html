@@ -1,0 +1,95 @@
+  
+ <!-- Form Keberangkatan -->
+ <form method='POST' action='form-aksi.php'> 
+    <table border='0' width='100%'>                     
+       
+    <tr> <td>Nama Depan</td><td><input type='text' name='nama'>
+         <td>Nama Belakang</td><td><input type='text' name='namabelakang'></td>
+    </tr> 
+    </tr>
+
+    <div class="custom-select">
+        <tr><td> Handphone</td>
+     
+    <td>
+        <select name='Handphone'>  
+            <option value='Japan +81'>+81</option> 
+            <option value='Indonesia +62'>+62</option> 
+            <option value='Malaysia +60'>+60</option> 
+            <option value='Singapore +65'>+65</option> 
+            <input type='text' name='Handphone'>
+        </select>
+
+    </td>
+ 
+    <tr>
+       <td>
+           Jumlah Tiket
+       </td>
+       <td>
+        <input type="text" nama="Jumlahtiket" onFocus="startCalc();" onBlur="stopCalc();"/>
+       </td>
+
+    </tr>
+
+
+    
+    <tr>
+        <td>
+            Member
+        </td>
+        <td>
+            <input type="checkbox" name="member"> Ya
+        </td>
+    </tr>
+
+       <tr>
+        <td>
+            Harga Tiket
+        </td>
+        <td>
+         <input class="harga" type="text" nama="harga" onFocus="startCalc();" onBlur="stopCalc();"/>
+        </td>
+   
+   
+   <tr>
+       <td></td>
+       <td>
+           <td colspan='2'> <input type="reset" value="Reset">
+           <input type='submit' value='Simpan'>
+           <input class="hitung" type="submit" value="Hitung" value="Hitung" readonly> </td>
+           
+           <br>
+
+     
+    <tr>
+    <td>
+        Total Bayar
+    </td>
+    <td>
+        <input class="total" type="text" name="ototal" size=20"">
+    </td>
+
+
+            <table border='2' cellpadding='4'>
+                <br>
+                <tr>
+                    <td>Nama Lengkap</td>
+                    <td>Harga Tiket</td>
+                    <td>Jumlah Penumpang</td>
+                    <td>Total Harga</td>
+                </tr>
+                <tr>
+                    <td>Krisna</td>
+                    
+                </tr>
+            </table>
+                
+    
+
+
+</tr>
+<script>
+    document.getElementsByClassName('num')[0].value;
+</script>
+     

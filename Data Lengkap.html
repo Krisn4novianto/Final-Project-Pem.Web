@@ -1,0 +1,110 @@
+<!-- CSS -->
+<link rel="stylesheet" type="text/css"  href="css/tiket.css">
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<body>
+<h2>Pemesanan Anda</h2>
+<p>Isi detail Anda dan tinjau pemesanan Anda.</p>
+
+<div class="container">
+  <form>
+  <div class="row">
+    <div class="col-25">
+      <label for="nama_depan">Nama Depan</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="nama_belakang" name="nama_depan" placeholder="Nama Depan ...">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="nama_belakang">Nama Belakang</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="nama_belakang" name="nama_belakang" placeholder="Nama Belakang ...">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="negara">Kewarganegaraan</label>
+    </div>
+
+    <div class="col-75">
+      <select id="negara" name="negara">
+        <option value="indonesia">Indonesia</option>
+        <option value="brunei">Singapura</option>
+        <option value="malaysia">Malaysia</option>
+      </select>
+    </div>
+  </div>
+
+<div class="row">
+<div class="col-25">
+    <label for="handphone">Handphone</label>
+</div>
+
+    <div class="Telepon">
+    <td><div class="col-6">
+    <select name='Handphone'>  
+        <option value='Jepang'>+ 81 Jepang</h2></option> 
+        <option value='Indonesia'> + 62 Indonesia</option> 
+        <option value='Malaysia'>+ 60 Malaysia</option> 
+        <option value='Singapore'>+ 65 Singapore</option>     
+    </select>
+    </td>
+    </div>
+    </div>
+
+    <!-- Ketik No Telepon -->
+    <td>
+        <div class="col-16">
+            <input type="text" id="no_telepon" name="no_telepon" placeholder=" _ _ _ _ _ _ _ _ _ _ _">
+          </div>
+    </td>
+</div>
+<!-- End -->
+
+<div class="row">
+    <div class="col-25">
+      <label for="Email">Email</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="Email" name="Email"  >
+    </div>
+  </div>
+
+
+
+  <div class="row">
+    <div class="col-25">
+      <label for="Bagasi">Bagasi Tambahan</label>
+    </div>
+
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Tulis sesuatu disini.." style="height:200px"></textarea>
+    </div>
+  </div><br>
+  <div class="row">
+    <input type="submit" value="Simpan" click="simpan()">
+  </div>
+  </form>
+</div>
+<script>
+  function simpan(){
+    Swal.fire({
+  icon: 'error',
+  title: 'Oops...',
+  text: 'Something went wrong!',
+  footer: '<a href="">Why do I have this issue?</a>'
+})
+  }
+</script>
+</body>
+</html>
+  

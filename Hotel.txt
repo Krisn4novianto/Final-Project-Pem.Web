@@ -1,0 +1,178 @@
+<div class="container"> <!-- Container -->
+    <ol class="type">
+        <li><a href="#" data-filter=".korsel">Korea Selatan</a></li>
+        <li><a href="#" data-filter=".thailand">Thailand</a></li>
+        <li><a href="#" data-filter=".jepang" >Jepang</a></li>
+        <li><a href="#" data-filter=".malaysia" >Malaysia</a></li>
+        <li><a href="#" data-filter=".singapura" >Singapura</a></li>
+    </ol>
+
+    </li>
+    </ul>
+    <div class="clearfix"></div>
+    </div>
+    <div id="lightbox" class="row">
+
+        <div class="col-sm-6 col-md-3 col-lg-3 jepang">
+            <div class="Hotel-item">
+                <div class="hover-bg">
+                    <a href="#">
+                        <div class="hover-text">
+                            <h4>Capsule Jepang</h4>
+                            <small>Harga mulai $1600 </small>
+                            <div class="clearfix"></div>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <img src="img/Hotel/Capsule Jepang.jpeg" class="img-responsive" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-3 thailand">
+            <div class="Hotel-item">
+                <div class="hover-bg">
+                    <a href="#">
+                        <div class="hover-text">
+                            <h4>Grand Sala Thai</h4>
+                            <small>Harga $2400 </small>
+                            <div class="clearfix"></div>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <img src="img/Hotel/Grand Sala Thai.jpeg" class="img-responsive" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-3 jepang">
+            <div class="Hotel-item">
+                <div class="hover-bg">
+                    <a href="#">
+                        <div class="hover-text">
+                            <h4>Disney Ambassador Hotel</h4>
+                            <small>Terlaris harga mulai $5000</small>
+                            <div class="clearfix"></div>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <img src="img/Hotel/disney ambassador hotel jepang.jpeg" class="img-responsive" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-3 jepang">
+            <div class="Hotel-item">
+                <div class="hover-bg">
+                    <a href="#">
+                        <div class="hover-text">
+                            <h4>Hotel Okura Tokyo Bay</h4>
+                            <small>Harga $1500</small>
+                            <div class="clearfix"></div>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <img src="img/Hotel/hotel okura tokyo bay jepang.jpeg" class="img-responsive" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-3 korsel">
+            <div class="Hotel-item">
+                <div class="hover-bg">
+                    <a href="#">
+                        <div class="hover-text">
+                            <h4>Hilton Busan Korea</h4>
+                            <small>Harga Mulai $4000</small>
+                            <div class="clearfix"></div>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <img src="img/Hotel/hilton busan korea.jpeg" class="img-responsive" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-3 singapura">
+            <div class="Hotel-item">
+                <div class="hover-bg">
+                    <a href="#">
+                        <div class="hover-text">
+                            <h4>Hotel Hilton Singapore</h4>
+                            <small>Bintang Lima. Harga mulai $3000</small>
+                            <div class="clearfix"></div>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <img src="img/Hotel/Hilton Singapore.jpeg" class="img-responsive" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-3 singapura">
+            <div class="Hotel-item">
+                <div class="hover-bg">
+                    <a href="#">
+                        <div class="hover-text">
+                            <h4>Hotel Ochar Singapore</h4>
+                            <small>Harga $2000</small>
+                            <div class="clearfix"></div>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <img src="img/Hotel/Ochar Singapore.jpeg" class="img-responsive" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-3 korsel">
+            <div class="Hotel-item">
+                <div class="hover-bg">
+                    <a href="#">
+                        <div class="hover-text">
+                            <h4>Lotte Hotel Busan Korea</h4>
+                            <small>Harga Mulai $2500</small>
+                            <div class="clearfix"></div>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <img src="img/Hotel/Lotte Hotel Busan Korea.jpg" class="img-responsive" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-3 malaysia">
+            <div class="Hotel-item">
+                <div class="hover-bg">
+                    <a href="#">
+                        <div class="hover-text">
+                            <h4>Hotel Seri Malaysia Lawas</h4>
+                            <small>Harga mulai $1400</small>
+                            <div class="clearfix"></div>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <img src="img/Hotel/Hotel Seri Malaysia Lawas.jpeg" class="img-responsive" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-3 korsel">
+            <div class="Hotel-item">
+                <div class="hover-bg">
+                    <a href="#">
+                        <div class="hover-text">
+                            <h4>Andaz Seol South Korea</h4>
+                            <small>Terlaris. Harga Mulai $1000</small>
+                            <div class="clearfix"></div>
+                            <i class="fa fa-plus"></i>
+                        </div>
+                        <img src="img/Hotel/Andaz seol korea.jpg" class="img-responsive" alt="...">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+</div>
+</div>
+</div>
